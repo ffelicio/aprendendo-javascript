@@ -2,12 +2,31 @@
 <html>
 	<head>
 		<title>Aula 03 - EVENTOS</title>
+		<style type="text/css">
+			body { background: black; }
+			p { color: white; }
+			div {
+				background: white;
+				margin: 0 auto;
+				padding: 3px;
+				text-align: center;
+				width: 60%;
+			}
+		</style>
 	</head>
+	<!--<body onload="alert('Carregado');">-->
 	<body>
 		<p>Aula 03 - EVENTOS</p>
 
-		<script type="text/javascript">
+		<div>
+			<img id="imagem" src="abobora-01.png" onclick="trocarImagem();" />
+			<!--<img src="abobora-01.png" onmouseover="alert('olá');" />-->
+		</div>
 
+		<script type="text/javascript">
+			function trocarImagem() {
+				document.getElementById("imagem").src = "abobora-02.png";
+			}
 		</script>
 	</body>
 </html>
