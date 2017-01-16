@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aula 05 - CONSTANTES</title>
+	</head>
+	<body>
+		<p>Aula 05 - CONSTANTES</p>
+
+		<script type="text/javascript">
+			/*
+			 * Caracteres unicode - http://www.unicode.org/
+			 */
+			var palavra_1 = "T'este";
+			var palavra_2 = "T\"este";
+			var palavra_3 = "T\\este";
+			var palavra_4 = "Teste\nNova Linha\n";
+			var palavra_5 = "\u7231";
+
+			// alert(palavra_1 + ' ' + palavra_2 + ' ' + palavra_3 + ' ' + palavra_4 + ' ' + palavra_5);
+
+			var variavelUndefined; //undefined
+			//alert(variavelUndefined);
+
+			var variavelNula = null; //null
+			// alert(variavelNula);
+
+			var variavelNotANumber = 3 * "pessoas"; //NaN
+			// alert(variavelNotANumber);
+
+			var variavelInfinity = 1.7976931348623157e+309; // Infinity
+			// alert(variavelInfinity);
+
+			var variavelInfinityNegativa = -1.7976931348623157e+309; // Infinity (negativa)
+			// alert(variavelInfinityNegativa);
+
+			var variavelInfinity2 = 2 + Infinity; // infinity
+			// alert(variavelInfinity2);
+
+			const HORAS_DO_DIA = 24; // Geralmente criadas com letras maiúsculas. Dados que não podem ser alterados.
+			// alert(HORAS_DO_DIA);
+		</script>
+	</body>
+</html>
