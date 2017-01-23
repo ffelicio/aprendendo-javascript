@@ -11,7 +11,6 @@
 
 var a = 6;
 
-/*
 alert(a == 6); // true
 alert(a == 7); // false
 alert(a == '6'); // true - só faz a comparação sem verificar o tipo.
@@ -19,7 +18,6 @@ alert(a === '6'); // false - valor igual, mas com tipo diferente
 alert(a != '6'); // false - comparação de valores.
 alert(a != '5'); // true
 alert(a !== 6); // true - valor igual, mas com tipo diferente
-*/
 
 // Operador 'Maior que'
 alert(a > 7); // false
